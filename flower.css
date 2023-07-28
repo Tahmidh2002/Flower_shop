@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    max-width: 1920px;
+max-height: 850px;
+flex-shrink: 0;
+padding: 0 240px;
+}
+
+.header-right{
+    max-width: 635px;
+max-height: 800px;
+flex-shrink: 0;
+}
+
+.header-right > img{
+
+}
