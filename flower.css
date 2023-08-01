@@ -175,3 +175,14 @@ font-size: 18px;
 font-weight: 400;
 }
 /*some more*/
+.some-more{
+    padding: 100px 100px;
+}
+.s-pictures{
+    display: flex;
+    justify-content:space-evenly;
+}
+.s-pictures > img{
+    width:20%;
+    height: auto;
+}
