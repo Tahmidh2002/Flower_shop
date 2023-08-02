@@ -11,7 +11,7 @@ background: rgba(229, 84, 115, 0.10);
 .primary-button{
     color: #FFF;
 font-family: Lato;
-font-size: 20px;
+font-size: 15px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -158,11 +158,12 @@ font-weight: 600;
     padding: 40px 35px;
     text-align: center;
     align-items: center;
+    justify-content: space-around;
 }
 .discount-info h2{
     color: #272727;
 font-family: Lato;
-font-size: 40px;
+font-size: 34px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -173,16 +174,82 @@ text-align: center;
 font-family: Lato;
 font-size: 18px;
 font-weight: 400;
+max-width: 530px;
+margin: 50px 0;
 }
 /*some more*/
 .some-more{
-    padding: 100px 100px;
+    padding: 100px 90px;
 }
 .s-pictures{
     display: flex;
     justify-content:space-evenly;
 }
 .s-pictures > img{
-    width:20%;
+    width:21%;
     height: auto;
+}
+.details{
+    text-align: center;
+}
+.details h3{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+}
+.details p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+max-width: 500px;
+margin: 20px auto;
+margin-bottom: 60px;
+}
+/*Latest deals*/
+.deals{
+    padding: 0 100px;
+    position: relative;
+}
+.deals img{
+    max-width: 100%;
+    height:100%;
+    z-index: -5;
+}
+.deals-info{
+    z-index: 2;
+    position:absolute;
+    top:20% ;
+    left: 38%;
+    /*right: 50%;*/
+    text-align: center;
+}
+.deals-info h3{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 0;
+}
+.deals-info p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.deals-form{
+    position: absolute;
+    top: 62%;
+    left: 27%;
+}
+.form-input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
 }
