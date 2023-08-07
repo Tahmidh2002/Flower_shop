@@ -1,10 +1,11 @@
 .header{
     display: flex;
     max-width: 1366px;
-max-height: 500px;
+height: 500px;
 flex-shrink: 0;
-padding: 0px 240px 0px 240px;
+padding: 0px 100px 0px 100px;
 background: rgba(229, 84, 115, 0.10);
+justify-content: space-around;
 }
 
 
@@ -29,15 +30,23 @@ padding: 20px 43px;
 text-align: left
 }
 .header-l-title{
-    max-width: 390px;
+    max-width: 400px;
     max-height: 100px;
     color: #272727;
-font-size: 30px;
-font-weight: 800;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 40px;
 } 
 .header-l-body{
-    max-width: 390px;
+    max-width: 480px;
     max-height: 100px;
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
 }
 
 .header > img{
@@ -252,4 +261,44 @@ font-weight: 400;
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
+    margin-right: 5px;
+}
+/*footer*/
+.footer{
+    background: #111010;
+    padding: 50px 100px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.footer h2{
+    color: #FFF;
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+}
+.footer span{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer h5{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 530px;
+margin: 0 auto;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
 }
